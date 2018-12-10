@@ -1,10 +1,11 @@
 ## PushPushGo Project 
 
 **Key assumption**
-Was to design & code simple static webpage about PushPushGo.
-:bomb:Live demo: [Here](https://www.karolpodzerek.pl/ppgo);
-In the top right corner of the page is also a link called 
-[Project](https://www.figma.com/file/F1crCHWaf7cGi7TpOIYRQ8a6/PushPushGO?node-id=0%3A1) which provide a project view source in Figma
+Was to design & code simple static webpage about PushPushGo. <br>
+:bomb:Live demo: [Here](https://www.karolpodzerek.pl/ppgo); <br><br>
+
+In the top right corner of the page is also a link called <br>
+:art:[Project](https://www.figma.com/file/F1crCHWaf7cGi7TpOIYRQ8a6/PushPushGO?node-id=0%3A1) which provide a project view source in Figma
 
 ## Used tools:hammer:
 
