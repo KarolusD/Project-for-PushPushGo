@@ -6,6 +6,11 @@
     left: 0;
     background: $white-c;
     z-index: 999;
+    transition: all 300ms ease-in-out;
+}
+
+.sh {
+    box-shadow: 0 3px 10px 1px rgba(0,0,0,.04);
 }
 
 .site-logo {
