@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+
+    ::selection {
+        background: rgb(29, 179, 149); /* WebKit/Blink Browsers */
+    }   
+    ::-moz-selection {
+        background: rgb(29, 179, 149); /* Gecko Browsers */
+    }
+}
+
+ul, ol {
+    list-style-type: none;;
+}
+
+img {
+    background-size: cover;
+    background-position: center;
+}

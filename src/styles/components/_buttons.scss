@@ -1,0 +1,25 @@
+button {
+    cursor: pointer;
+    min-width: 132px;
+    padding:0 24px;
+    height: 46px;
+    font-family: 'Open-Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: none;
+    outline: 0;
+    border: none;
+    background: $primary-brand-c;
+    color: $white-c;
+    border-radius: 4px;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+       background: $hover-c;
+    }
+}

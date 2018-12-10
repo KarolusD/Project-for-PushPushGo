@@ -1,0 +1,76 @@
+.section04 {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: $primary-bg-c;
+    min-height: $heightSection;
+    height: auto;
+
+    .go-to-site {
+        position: relative;
+        width: 220px;
+        height: 50px;
+        // left: 50%;
+        // transform: translateX(-50%);
+       margin: 0 auto;
+    }
+    
+    .link {
+        display: block;
+        text-align: center;
+        margin: 32px 50px;
+    }
+
+    .floating-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 32px;
+        height: 32px;
+
+        &--top-left {
+            top: 15%;
+            left: 15%;
+            animation: floating 6s ease-in-out infinite;
+            animation-delay: 2s;
+        }
+
+        &--top-right {
+            top: 12%;
+            left: 80%;
+             animation: floating 6s ease-in-out infinite;
+        }
+
+        &--bottom-left {
+            top: 48%;
+            left: 20%;
+             animation: floating 6s ease-in-out infinite;
+        }
+
+        &--bottom-right {
+            top: 42%;
+            left: 72%;
+            animation: floating 6s ease-in-out infinite;
+            animation-delay: 2s;
+        }
+
+        @media (max-width: 1023px) {
+            display: none;
+        }
+    }
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-24px);
+    }
+
+    100% {
+         transform: translateY(0);
+    }
+}
+

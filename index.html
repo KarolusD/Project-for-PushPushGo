@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PushPushGo Project</title>
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="Webpack basic starter project">
+    <meta name="Description" content="A simple webpack starter project for your basic web development needs."/>
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Webpack basic starter project" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://lifenautjoe.github.io/webpack-starter-basic/" />
+    <meta property="og:image" content="https://i.snag.gy/i3eMBc.jpg" />
+    <meta property="og:description" content="A simple webpack starter project for your basic web development needs." />
+    <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#ff4970">
+    <!-- Mobile header color Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#ff4970">
+    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700i&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+    <header id="header" class="site-header">
+        <div id="logo" class="site-logo">
+            <a href="#"><img class="site-logo__img img" src="<%= require('./src/assets/logo.png') %>" alt="logo"></a>
+        </div>
+        <nav id="nav" class="site-nav">
+            <ul class="nav-list">
+                <li class="nav-list__item"><a href="https://github.com/KarolusD/Project-for-PushPushGo" target="blank">github</a></li>
+                <li class="nav-list__item"><a href="https://www.figma.com/file/F1crCHWaf7cGi7TpOIYRQ8a6/PushPushGO?node-id=0%3A1" target="blank">project</a></li>
+                <li class="nav-list__item"><a href="http://karolpodzerek.pl/#con" target="blank">contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section01">
+        <div class="flex-wrapper flex-wrapper--push-left">
+            <div class="flex-wrapper__article">
+                <h1 class="h1">We will be at ecommerce awards conference</h1>
+                <h2 class="h2">German market awards for<br> e-commerce service providers</h2>
+                <button id="about-us-btn">about us</button>
+            </div>
+
+            <div class="flex-wrapper__aside">
+                <img class=" onboarding img" src="<%= require('./src/assets/onboarding.png') %>" alt="onboarding"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section02">
+        <div class="flex-wrapper flex-wrapper--col-reverse flex-wrapper--push-right">
+            <div class="flex-wrapper__aside">
+                <img class="about_us img" src="<%= require('./src/assets/about_us.png') %>" alt="about us"></a>
+            </div>
+
+            <div class="flex-wrapper__article">
+                <h1 class="h1">Who are we?</h1>
+                <p class="paragraph p">PushPushGo is a platform for sending automatic web push notifications on desktop and mobile. Our software allows for
+                    segmentation targeting, marketing automation (recovering abandoned carts, cross-selling etc.) and the tracking of
+                    ecommerce analytics.
+                </p>
+                <button id="why-us-btn">but why us?</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section03">
+        <h2 class="h2 h2--center">because we are different...</h2>
+        <div class="flex-wrapper flex-wrapper--wrap">
+            <div class="flex-skill">
+                <img class="flex-skill__easy-implementation img" src="<%= require('./src/assets/icons/spaceship.png') %>" alt="easy implementation"></a>
+                <h3 class="flex-skill__h3 h3">easy implementation</h3>
+                <p class="flex-skill__paragraph paragraph">
+                    The most simple way to integrate <br>a website is to paste one line of code anywhere in the page's source code.
+                </p>
+            </div>
+
+            <div class="flex-skill">
+                <img class="flex-skill__return-rate img" src="<%= require('./src/assets/icons/progress.png') %>" alt="return rate"></a>
+                <h3 class="flex-skill__h3 h3 h3--grey">return rate</h3>
+                <p class="flex-skill__paragraph paragraph">
+                    Generate more traffic on your internet site and build subscriber loyalty using automatic notifications.                    
+                </p>
+            </div>
+
+            <div class="flex-skill">
+                <img class="flex-skill__abandoned-carts img" src="<%= require('./src/assets/icons/cart-simple.png') %>" alt="abandoned carts"></a>
+                <h3 class="flex-skill__h3 h3">abandoned carts</h3>
+                <p class="flex-skill__paragraph paragraph">
+                    Send reminders to subscribers who have left behind products placed in a cart.
+                </p>
+            </div>
+            
+            <div class="flex-skill">
+                <img class="flex-skill__segmentation img" src="<%= require('./src/assets/icons/layers.png') %>" alt="segmentation"></a>
+                <h3 class="flex-skill__h3 h3">segmentation</h3>
+                <p class="flex-skill__paragraph paragraph">
+                    Follow the actions of subscribers on your page in real time and react immediately. Add tags on the basis of
+                    demonstrated interests and build customer segments.
+                </p>
+            </div>
+
+            <div class="flex-skill">
+                <img class="flex-skill__cross-selling img" src="<%= require('./src/assets/icons/cross-selling.png') %>" alt="cross-selling"></a>
+                <h3 class="flex-skill__h3 h3">cross-selling</h3>
+                <p class="flex-skill__paragraph paragraph">
+                    Send notifications about promotions to selected subscribers. Use cross-selling to drive sales
+                </p>
+            </div>
+
+            <div class="flex-skill">
+                <img class="flex-skill__engagement img" src="<%= require('./src/assets/icons/award.png') %>" alt="engagement"></a>
+                <h3 class="flex-skill__h3 h3">engagement</h3>
+                <p class="flex-skill__paragraph paragraph">
+                    Monitor customer satisfaction with short surveys after each transaction and build engagement through personalized
+                    notifications.
+                </p>
+            </div>
+            
+        </div>
+    
+    </section>
+
+    <section class="section04">
+        <h2 class="h2 h2--center">additional information</h2>
+        <p class="paragraph paragraph--center paragraph--wide">
+            The numbers speak for themselves: an ROI of 3500% and a CTR 5 times higher than email marketing. Web push notifications
+            have proven themselves as a reliable online marketing tool. One of our main advantages is implemented customer-oriented
+            politics: - availability of our Customer Service 24/7 - dedicated web push notification strategies prepared specially
+            for our clients by the Strategy Team - instant implementation of any necessary updates on the demand of the client.
+        </p>
+
+        <h3 class="h3 h3--black h3--center">from more info please visit our website:</h3>
+        <div class="go-to-site">
+            <a target="blank" href="https://pushpushgo.com/en/">
+                <img class="site-logo__img img" src="<%= require('./src/assets/logo.png') %>" alt="go to our site"></a>
+                <a target="blank" class="link" href="https://pushpushgo.com/en/">our website <strong>&#62;</strong></a>
+            </a>
+        </div>
+        
+        <div class="floating-icon floating-icon--top-left">
+            <img class="site-logo__img img" src="<%= require('./src/assets/icons/polygon.png') %>" alt="polygon"></a>
+        </div>
+
+        <div class="floating-icon floating-icon--top-right">
+            <img class="site-logo__img img" src="<%= require('./src/assets/icons/wave.png') %>" alt="wave"></a>
+        </div>
+
+        <div class="floating-icon floating-icon--bottom-left">
+            <img class="site-logo__img img" src="<%= require('./src/assets/icons/love.png') %>" alt="love"></a>
+        </div>
+
+        <div class="floating-icon floating-icon--bottom-right">
+            <img class="site-logo__img img" src="<%= require('./src/assets/icons/ellipse.png') %>" alt="ellipse"></a>
+        </div>
+
+    </section>
+
+</body>
+</html>
